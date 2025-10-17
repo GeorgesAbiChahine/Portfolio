@@ -73,6 +73,7 @@ nav .right a span {
 .hero-section .text {
   flex: 5;
   text-align: justify;
+  padding-left: 10px;
 }
 
 .hero-section .text h2 {
