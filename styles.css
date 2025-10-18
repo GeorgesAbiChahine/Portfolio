@@ -63,7 +63,7 @@ nav .right a span {
 .hero-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   padding: 0 50px;
   margin: 50px 0;
   margin-bottom: 100px;
@@ -274,7 +274,6 @@ nav .right a span {
   /* SECTION 1: Hero */
    
   .hero-section {
-    margin: 50px;
     flex-direction: column-reverse;
   }
   
