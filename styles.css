@@ -253,6 +253,12 @@ nav .right a span {
 
 @media (max-width: 850px) {
   /* SECTION 1: Hero */
+   
+  .hero-section {
+    margin: 50px;
+    flex-direction: column-reverse;
+  }
+  
   .hero-section .text h2 {
     font-size: 35px;
   }
