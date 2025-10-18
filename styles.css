@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
   background-color: var(--background-color);
   max-width: 1400px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -555,7 +557,7 @@ nav .right a span {
     font-size: 16px;
   }
   .img {
-    height: 18px;
+    height: 180px;
   }
   .bottom {
     flex-direction: column;
