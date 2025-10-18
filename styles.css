@@ -303,11 +303,7 @@ nav .right a span {
     text-align: center;
   }
 
-  .projects-section .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-  }
+
 
   /* SECTION 4: Contact */
   .contact-section .group {
@@ -365,6 +361,11 @@ nav .right a span {
   /* SECTION 4: Contact */
   .contact-section {
     padding: 0 20px;
+  }
+   .projects-section .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
 
