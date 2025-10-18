@@ -63,7 +63,7 @@ nav .right a span {
 .hero-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   padding: 0 50px;
   margin: 50px 0;
   margin-bottom: 100px;
@@ -76,8 +76,9 @@ nav .right a span {
   padding-left: 2px;
 }
 
-.hero-section .text h2 {
+.hero-section .text h2{
   font-size: 45px;
+  margin: 0px;
 }
 
 .hero-section .text .links {
@@ -267,6 +268,12 @@ nav .right a span {
     width: 300px;
   }
 
+  .hero-section .headshot {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
   /* SECTION 3: Projects */
   .projects-section {
     text-align: center;
@@ -305,6 +312,10 @@ nav .right a span {
   /* SECTION 1: Hero */
   .hero-section {
     padding: 0 20px;
+  }
+
+  .hero-section p{
+    font-size: 14px;
   }
 
   .hero-section .text h2 {
