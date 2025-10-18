@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
   max-width: 1400px;
@@ -43,6 +43,11 @@ nav .left a {
   color: var(--text-color);
   font-size: 22px;
   font-weight: 600;
+}
+nav .left img {
+  height: auto;
+  width: auto;
+  float: left;
 }
 
 nav .right a {
@@ -78,7 +83,7 @@ nav .right a span {
   padding-left: 2px;
 }
 
-.hero-section .text h2{
+.hero-section .text h2 {
   font-size: 45px;
   margin: 0px;
 }
@@ -94,7 +99,7 @@ nav .right a span {
   border-radius: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .hero-section .text .links a:hover {
@@ -229,7 +234,7 @@ nav .right a span {
 
 .contact-section .group form input,
 .contact-section .group form textarea {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 2px solid var(--link-color);
   background-color: transparent;
   padding: 10px;
@@ -240,17 +245,17 @@ nav .right a span {
 
 .contact-section .group form button {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   background-color: var(--link-color);
   border: none;
   height: 50px;
   cursor: pointer;
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .contact-section .group form button:hover {
-  filter: brightness(.9);
+  filter: brightness(0.9);
 }
 
 @media (max-width: 1000px) {
@@ -274,11 +279,11 @@ nav .right a span {
 
 @media (max-width: 850px) {
   /* SECTION 1: Hero */
-   
+
   .hero-section {
     flex-direction: column-reverse;
   }
-  
+
   .hero-section .text h2 {
     font-size: 35px;
   }
@@ -295,10 +300,10 @@ nav .right a span {
   }
 
   .hero-section .headshot {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-}
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
 
   /* SECTION 3: Projects */
   .projects-section {
@@ -340,7 +345,7 @@ nav .right a span {
     padding: 0 20px;
   }
 
-  .hero-section p{
+  .hero-section p {
     font-size: 14px;
   }
 
@@ -368,15 +373,14 @@ nav .right a span {
   }
 }
 
-
 /* Card Component Styles */
 .card {
   width: 360px;
   background: #fff;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0,0,0,.1);
-  transition: .3s;
-  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  font-family: "Segoe UI", sans-serif;
   margin: 20px auto;
   overflow: hidden;
   position: relative;
@@ -385,7 +389,7 @@ nav .right a span {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .badge {
@@ -405,7 +409,7 @@ nav .right a span {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
 
@@ -422,7 +426,7 @@ nav .right a span {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 .card:hover .img img {
@@ -438,21 +442,21 @@ nav .right a span {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #71717A;
+  color: #71717a;
   margin-bottom: 5px;
 }
 
 .title {
   font-size: 20px;
   font-weight: 700;
-  color: #18181B;
+  color: #18181b;
   margin: 0 0 10px;
-  letter-spacing: -.5px;
+  letter-spacing: -0.5px;
 }
 
 .desc {
   font-size: 13px;
-  color: #52525B;
+  color: #52525b;
   line-height: 1.4;
   margin-bottom: 12px;
 }
@@ -465,8 +469,8 @@ nav .right a span {
 
 .feat {
   font-size: 10px;
-  background: #F4F4F5;
-  color: #71717A;
+  background: #f4f4f5;
+  color: #71717a;
   padding: 3px 8px;
   border-radius: 10px;
   font-weight: 500;
@@ -478,7 +482,7 @@ nav .right a span {
 }
 
 .btn {
-  background: linear-gradient(45deg, #18181B, #27272A);
+  background: linear-gradient(45deg, #18181b, #27272a);
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -489,33 +493,46 @@ nav .right a span {
   display: flex;
   align-items: center;
   gap: 6px;
-  transition: .3s;
-  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+  transition: 0.3s;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover {
-  background: linear-gradient(45deg, #27272A, #3F3F46);
+  background: linear-gradient(45deg, #27272a, #3f3f46);
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0,0,0,.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
 .btn:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,.1), transparent);
-  transition: .5s;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transition: 0.5s;
 }
 
 .btn:hover:before {
   left: 100%;
 }
 
+.btn--site {
+  background: linear-gradient(45deg, #2563eb, #1d4ed8);
+}
+
+.btn--youtube {
+  background: linear-gradient(45deg, #ff0000, #cc0000);
+}
+
 .icon {
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .btn:hover .icon {
@@ -526,7 +543,7 @@ nav .right a span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #F4F4F5;
+  border-top: 1px solid #f4f4f5;
   padding-top: 12px;
 }
 
@@ -540,13 +557,13 @@ nav .right a span {
 .rcount {
   margin-left: 6px;
   font-size: 11px;
-  color: #71717A;
+  color: #71717a;
 }
 
 .stock {
   font-size: 11px;
   font-weight: 600;
-  color: #22C55E;
+  color: #22c55e;
 }
 
 @media (max-width: 400px) {
