@@ -251,6 +251,25 @@ nav .right a span {
   filter: brightness(.9);
 }
 
+@media (max-width: 1000px) {
+  /* NAVBAR */
+  nav {
+    padding: 0 20px;
+  }
+
+  /* SECTION 1: Hero */
+  .hero-section {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .hero-section .headshot {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 850px) {
   /* SECTION 1: Hero */
    
